@@ -7,6 +7,10 @@ from flask_migrate import MigrateCommand
 
 from huishop.app import create_app
 from huishop.models.user import User
+from huishop.models.address import Addresses
+from huishop.models.category import Category
+from huishop.models.product import Product
+from huishop.models.product_details import Details
 from huishop.settings import DevConfig, ProdConfig
 from huishop.database import db
 

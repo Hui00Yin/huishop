@@ -16,6 +16,7 @@ class Post(SurrogatePK, Model):
     title = db.Column(db.Text)
     slug = db.Column(db.Text)
     body = db.Column(db.Text)
+    test = db.Column(db.Text)
     created_at = Column(db.DateTime, nullable=False, default=dt.datetime.utcnow)
 
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'))

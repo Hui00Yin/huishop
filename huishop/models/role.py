@@ -10,8 +10,6 @@ from huishop.database import (
     SurrogatePK,
 )
 
-
-
 class Role(SurrogatePK, Model):
     __tablename__ = 'roles'
     name = Column(db.String(80), unique=True, nullable=False)
@@ -23,3 +21,4 @@ class Role(SurrogatePK, Model):
 
     def __repr__(self):
         return '<Role({name})>'.format(name=self.name)
+
