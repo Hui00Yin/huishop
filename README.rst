@@ -2,7 +2,7 @@
 huishop
 ===============================
 
-A shopping cart project
+A shopping cart project. It's a back end project built with Flask and PostgreSQL.
 
 
 Quickstart
